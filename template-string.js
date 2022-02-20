@@ -21,16 +21,15 @@ this is backtic fifth line.
 `;
 console.log(multilineNew);
 
+const friends = ["abul", "babul", "kabul", "sabul"];
 const first = "Mamun";
 const last = "chowdhury";
-const fullNameOld = first + " " + last;
-// const fullNameNwe =
+const fullNameOld ='This person name is' + first + " " + last;
+const fullNameNew = `This person name is${first} ${last} Has money ${friends.length * 500}. He lives in dhaka ` ;
+console.log(fullNameNew);
 
-const friends = ["abul", "babul", "kabul", "sabul"];
 const count = 5;
 const old = '<h3 class="friend-name">Friend</h3>';
 const old2 = '<h3 class="friend-name">Friend- ' + count + "</h3>";
 const new1 = `<h3 class="friend-name">Friend-${friends.length}</h3>`;
 
-const y = (x) => z * x;
-const z = y(5);
